@@ -30,38 +30,37 @@
             </div>
         </div>
         <div id="mv">
-            <iframe width="100%" height="958px" 
-            src="https://www.youtube.com/embed/A8-PjIQvCQ8?si=HFMzQ6q5fiFhahef&amp;controls=0?autoplay=1" 
-            title="YouTube video player" frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen
-            >
-            </iframe>
+            <iframe class="videof" src="https://www.youtube.com/embed/A8-PjIQvCQ8?si=VwJBTJ9ovMSpzUGu?&autoplay=1&mute=1" 
+            title="YouTube video player" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+            gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen></iframe>
         </div>
         <div id="contents">
             <div id="artist">
-                <div class="artist inner">
-                <ul>
-                    <li><img id="banner1" src="images/ft.png" alt="ft"></li>
-                    <li><img id="banner2" src="images/cnb.png" alt="cn"></li>
-                    <li><img id="banner3" src="images/aoa.png" alt="aoa"></li>
-                    <li><img id="banner4" src="images/nf.png" alt="nf"></li>
-                    <li><img id="banner5" src="images/sf9.png" alt="sf9"></li>
-                    <li><img id="banner6" src="images/p1h.png" alt="p1h"></li>
-                    <li><img id="banner7" src="images/cherry.png" alt="cherry"></li>
-                    <li><img id="banner8" src="images/ldg.png" alt="ldg"></li>
-                    <li><img id="banner9" src="images/rhc.png" alt="rhc"></li>
-                    <li><img id="banner10" src="images/lgj.png" alt="lgj"></li>
-                    <li><img id="banner11" src="images/msy.png" alt="msy"></li>
-                    <li><img id="banner12" src="images/jhi.png" alt="jhi"></li>
-                </ul>
-                </div>
+                    <div class="list">
+                        <ul>
+                            <li><img id="banner1" src="images/ft.png" alt="ft"></li>
+                            <li><img id="banner2" src="images/cnb.png" alt="cn"></li>
+                            <li><img id="banner3" src="images/aoa.png" alt="aoa"></li>
+                            <li><img id="banner4" src="images/nf.png" alt="nf"></li>
+                            <li><img id="banner5" src="images/sf9.png" alt="sf9"></li>
+                            <li><img id="banner6" src="images/p1h.png" alt="p1h"></li>
+                            <li><img id="banner7" src="images/cherry.png" alt="cherry"></li>
+                            <li><img id="banner8" src="images/ldg.png" alt="ldg"></li>
+                            <li><img id="banner9" src="images/rhc.png" alt="rhc"></li>
+                            <li><img id="banner10" src="images/lgj.png" alt="lgj"></li>
+                            <li><img id="banner11" src="images/msy.png" alt="msy"></li>
+                            <li><img id="banner12" src="images/jhi.png" alt="jhi"></li>
+                        </ul>
+                    </div>
             </div>
             <div id="news">
                 <div class="news inner">
-                    <h2>FNC NEWS</h2>
+                    <h2 class="cursor">FNC NEWS</h2>
                     <div class="con">
                         <div class="notice box">
-                            <h3>NOTICE</h3>
+                            <h3><a href="#">NOTICE</a></h3>
                             <a href="#" class="more">+</a>
                             <ul>
                                 <li><a href="#">[안내] SF9 활동 관련 안내드립니다.</a><span>2023.09.18</span></li>
@@ -72,24 +71,24 @@
                             </ul>
                         </div>
                         <div class="newrel box">
-                            <h3>NEW RELEASE</h3>
+                            <h3><a href="#">NEW RELEASE</a></h3>
                             <a href="#" class="more2">+</a>
-                            <ul>
-                                <li class="active altitle"><a href="#">JUNG YONG HWA 2ND MINI ALBUM [YOUR CITY] Among City ver.</a></li>
-                                <li class="altitle"><a href="#">JUNG YONG HWA 2ND MINI ALBUM [YOUR CITY] Over City ver.</a></li>
-                                <li class="altitle"><a href="#">FTISLAND 9TH MINI ALBUM [Sage]</a></li>
-                                <li class="altitle"><a href="#">휘영 Digital Single [Drive5]</a></li>
-                                <li class="altitle"><a href="#">P1Harmony 6th Mini Album [HARMONY : ALL IN] FLOW IN ver.</a></li>
-                            </ul>
-                            <!-- 일정시간마다 텍스트랑 연결돼서 이미지 바뀌게  -->
-                            <!-- 아니면 텍스트에 hover시 가상요소로 이미지 넣을까? 올 -->
+                            <div class="title">
+                                <ul id="titname">
+                                    <li class="on" data-target="#yourcity1"><a href="#">JUNG YONG HWA 2ND MINI ALBUM [YOUR CITY] Among City ver.</a></li>
+                                    <li data-target="#yourcity2"><a href="#">JUNG YONG HWA 2ND MINI ALBUM [YOUR CITY] Over City ver.</a></li>
+                                    <li data-target="#sage"><a href="#">FTISLAND 9TH MINI ALBUM [Sage]</a></li>
+                                    <li data-target="#drive"><a href="#">휘영 Digital Single [Drive5]</a></li>
+                                    <li data-target="#allin"><a href="#">P1Harmony 6th Mini Album [HARMONY : ALL IN] FLOW IN ver.</a></li>
+                                </ul>
+                            </div>
                             <div class="album">
                                 <ul>
-                                    <li><a href="#"><img class="alimg" src="images/album1.png" alt="album1"></a></li>
-                                    <li><a href="#"><img class="alimg" src="images/album2.png" alt="album2"></a></li>
-                                    <li><a href="#"><img class="alimg" src="images/album3.png" alt="album3"></a></li>
-                                    <li><a href="#"><img class="alimg" src="images/album4.png" alt="album4"></a></li>
-                                    <li><a href="#"><img class="alimg" src="images/album5.png" alt="album5"></a></li>
+                                    <li id="yourcity1" class="alimg dia"><a href="#"><img src="images/album1.png" alt="album1"></a></li>
+                                    <li id="yourcity2" class="alimg"><a href="#"><img src="images/album2.png" alt="album2"></a></li>
+                                    <li id="sage" class="alimg"><a href="#"><img src="images/album3.png" alt="album3"></a></li>
+                                    <li id="drive" class="alimg"><a href="#"><img src="images/album4.png" alt="album4"></a></li>
+                                    <li id="allin" class="alimg"><a href="#"><img src="images/album5.png" alt="album5"></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -101,7 +100,7 @@
             <!-- #news end -->
             <div id="store">
                 <div class="store inner">
-                    <h2>FNC STORE</h2>
+                    <h2 class="cursor">FNC STORE</h2>
                     <ul>
                         <li><a href="#"><img src="images/st1.png" alt="st1"><p>[정용화] JUNG YONG HWA OFFICIAL LIGHT STICK</p></a></li>
                         <li><a href="#"><img src="images/st2.png" alt="st2"><p>FTISLAND 'HEY DAY' OFFICIAL MD_ PHOTO PACK</p></a></li>
